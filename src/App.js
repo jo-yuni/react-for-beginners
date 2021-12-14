@@ -6,9 +6,9 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/:id" element={<Detail />}>
+        <Route path={process.env.PUBLIC_URL + "/:id"} element={<Detail />}>
         </Route>
-        <Route exact path="/" element={<Home />}>
+        <Route path={process.env.PUBLIC_URL + "/"} element={<Home />}>
         </Route>
       </Routes>
     </Router>
