@@ -17,7 +17,6 @@
     "c/**/left-pad": "^1.1.2"
   },
   "scripts": {
-    "start": "set PORT=3000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -46,5 +45,5 @@
     "gh-pages": "^3.2.3",
     "react-router-dom": "^6.1.1"
   },
-  "homepage": "https://jo-yuni.github.io/react-for-beginners"
+  "homepage": "http://jo-yuni.github.io/react-for-beginners"
 }
